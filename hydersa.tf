@@ -12,3 +12,7 @@ parameter_group_name = "default.redis3.2"
 engine_version = "3.2.10"
 port = "6379"
 }
+resource "aws_s3_bucket" "mybucket" {
+bucket = "imran6667788ii"
+acl = "private"
+}
